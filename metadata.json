@@ -21,7 +21,7 @@
   },
   "can1357/oh-my-pi": {
     "pushed": "2026-10-05",
-    "stars": 34350,
+    "stars": 34351,
     "status": null
   },
   "d3d0n/terngram": {
@@ -87,6 +87,11 @@
   "wolfiesch/tern-control": {
     "pushed": "2026-10-01",
     "stars": 1,
+    "status": null
+  },
+  "yumosx/tern-close-plugin": {
+    "pushed": "2026-10-05",
+    "stars": 0,
     "status": null
   }
 }
