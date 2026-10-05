@@ -88,6 +88,9 @@ sections:
   - name: saavy
     url: https://github.com/saavy1/saavy_cloud
     description: Persistent coding agent on Cloudflare with a native TSP frontend in Tern and a `pi-tui` fallback elsewhere.
+  - name: mantern
+    url: https://github.com/theblazehen/mantern
+    description: Drop-in `man` replacement that draws pages natively in Tern over TSP, with a synopsis card, option cards, tables, foldable sections and clickable SEE ALSO links, and falls back to the system `man` elsewhere.
   - name: Octet
     url: https://github.com/skaft-software/octet/pull/485
     description: Coding-agent shell rendering transcript cards, split diffs, pickers, and reports through TSP; Tern support is merged into the integration branch for 0.8.2 but not in the latest 0.8.1 release.
