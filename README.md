@@ -67,6 +67,7 @@ Applications that draw their own user interface natively inside Tern using the T
 - [Octet](https://github.com/skaft-software/octet/pull/485) ★ 7 · 2026-10-05 - Coding-agent shell rendering transcript cards, split diffs, pickers, and reports through TSP; Tern support is merged into the integration branch for 0.8.2 but not in the latest 0.8.1 release.
 - [saavy](https://github.com/saavy1/saavy_cloud) ★ 1 · 2026-10-05 - Persistent coding agent on Cloudflare with a native TSP frontend in Tern and a `pi-tui` fallback elsewhere.
 - [Terngram](https://github.com/d3d0n/terngram) ★ 0 · 2026-10-05 - Unofficial keyboard-driven Telegram client built on TDLib and omp's UI toolkit, also installable as a Tern plugin.
+- [rmon](https://github.com/pgkt04/rmon) - Resource monitor for Linux and macOS with CPU, GPU, memory, network, disk and process panels and a disk benchmark, drawn natively in Tern over TSP.
 
 ## Agent integrations
 
