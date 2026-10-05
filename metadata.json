@@ -21,7 +21,7 @@
   },
   "can1357/oh-my-pi": {
     "pushed": "2026-10-05",
-    "stars": 34351,
+    "stars": 34368,
     "status": null
   },
   "d3d0n/terngram": {
@@ -41,7 +41,7 @@
   },
   "pgkt04/rmon": {
     "pushed": "2026-10-05",
-    "stars": 3,
+    "stars": 4,
     "status": null
   },
   "plumj-am/nixos": {
@@ -72,6 +72,11 @@
   "tdortman/dotfiles": {
     "pushed": "2026-10-05",
     "stars": 1,
+    "status": null
+  },
+  "theblazehen/mantern": {
+    "pushed": "2026-10-05",
+    "stars": 0,
     "status": null
   },
   "verticalrectangle/tern-video-block": {
