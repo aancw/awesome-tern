@@ -135,7 +135,7 @@ def entry_meta(entry: dict, meta: dict) -> str:
         return ""
     if info.get("status") == "unavailable":
         return " `unavailable`"
-    parts = [f"★ {info['stars']}", f"updated {info['pushed']}"]
+    parts = [f"★ {info['stars']}", info["pushed"]]
     if info.get("status"):
         parts.append(f"`{info['status']}`")
     return " " + " · ".join(parts)
@@ -174,7 +174,7 @@ def render(data: dict, meta: dict) -> str:
             out += [s["blurb"].strip(), ""]
         items = ordered(s, meta)
         for e in items:
-            out.append(f"- [{e['name']}]({e['url']}) - {e['description'].strip()}{entry_meta(e, meta)}")
+            out.append(f"- [{e['name']}]({e['url']}){entry_meta(e, meta)} - {e['description'].strip()}")
         if items:
             out.append("")
     if data.get("contributing"):

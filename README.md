@@ -30,21 +30,21 @@ Tern plugins are written in Luau and can be installed directly from GitHub with 
 
 A lens captures a shell command's output and shows it as a native view. A Raw toggle shows the original text.
 
-- [tern-jj](https://github.com/resYuto/tern-jj) - Displays `jj status` and `jj st` output as a read-only native card with added, modified and deleted files colored to match the Tern theme. ★ 0 · updated 2026-10-04
+- [tern-jj](https://github.com/resYuto/tern-jj) ★ 0 · 2026-10-04 - Displays `jj status` and `jj st` output as a read-only native card with added, modified and deleted files colored to match the Tern theme.
 
 ### Blocks
 
-- [tern-spotify](https://github.com/rico-vz/tern-spotify) - Player block for the Spotify desktop app with cover art, playback, seeking and volume controls on macOS, Windows and Linux. ★ 0 · updated 2026-10-04
-- [tern-video-block](https://github.com/verticalrectangle/tern-video-block) - Opens video files in a block with mpv sound, frame stepping and synced side-by-side playback using ffmpeg and the kitty graphics protocol. ★ 0 · updated 2026-10-05
+- [tern-spotify](https://github.com/rico-vz/tern-spotify) ★ 0 · 2026-10-04 - Player block for the Spotify desktop app with cover art, playback, seeking and volume controls on macOS, Windows and Linux.
+- [tern-video-block](https://github.com/verticalrectangle/tern-video-block) ★ 0 · 2026-10-05 - Opens video files in a block with mpv sound, frame stepping and synced side-by-side playback using ffmpeg and the kitty graphics protocol.
 
 ### Window and workflow
 
 Window plugins add commands, keybindings, layouts, and status-line segments.
 
-- [tern-ide layout](https://github.com/plumj-am/nixos/blob/master/packages/tern-plugins/layout.nix) - Window plugin with an IDE-style four-pane layout, set split ratios, and an omp pane, packaged with Nix inside a NixOS config. ★ 2 · updated 2026-10-04
-- [tern-jj workspaces](https://github.com/plumj-am/nixos/blob/master/packages/tern-plugins/jj.nix) - Creates, opens, removes, and inspects jj workspaces using Tern dialogs, tabs, and the status line, packaged with Nix inside a NixOS config. ★ 2 · updated 2026-10-04
-- [herdr-tern-plugin](https://github.com/gabrielmoreira/herdr-tern-plugin) - Adds an Open Herdr Session command that picks an existing herdr session and attaches to it inside Tern without copying or converting workspaces. ★ 0 · updated 2026-10-05
-- [tern-model-usage](https://github.com/azmifarih/tern-model-usage) - Shows omp coding-plan quota for each signed-in account in the status line and opens a canvas pane with provider cards and reset countdowns. ★ 0 · updated 2026-10-04
+- [tern-ide layout](https://github.com/plumj-am/nixos/blob/master/packages/tern-plugins/layout.nix) ★ 2 · 2026-10-04 - Window plugin with an IDE-style four-pane layout, set split ratios, and an omp pane, packaged with Nix inside a NixOS config.
+- [tern-jj workspaces](https://github.com/plumj-am/nixos/blob/master/packages/tern-plugins/jj.nix) ★ 2 · 2026-10-04 - Creates, opens, removes, and inspects jj workspaces using Tern dialogs, tabs, and the status line, packaged with Nix inside a NixOS config.
+- [herdr-tern-plugin](https://github.com/gabrielmoreira/herdr-tern-plugin) ★ 0 · 2026-10-05 - Adds an Open Herdr Session command that picks an existing herdr session and attaches to it inside Tern without copying or converting workspaces.
+- [tern-model-usage](https://github.com/azmifarih/tern-model-usage) ★ 0 · 2026-10-04 - Shows omp coding-plan quota for each signed-in account in the status line and opens a canvas pane with provider cards and reset countdowns.
 
 ### Official examples
 
@@ -62,24 +62,24 @@ These examples ship with the official [SDK archive](https://docs.stencil.so/tern
 
 Applications that draw their own user interface natively inside Tern using the Tern Surface Protocol (TSP).
 
-- [oh-my-pi (omp)](https://github.com/can1357/oh-my-pi) - Stencil's coding agent that Tern is built around, drawing its transcript and UI natively, restoring sessions, and opening web pages as browser picture-in-picture panes. ★ 34331 · updated 2026-10-05
-- [Octet](https://github.com/skaft-software/octet/pull/485) - Coding-agent shell that renders transcript cards, split diffs, pickers, and reports through TSP, with Tern support merged into a feature branch, not `main`. ★ 7 · updated 2026-10-05
-- [saavy](https://github.com/saavy1/saavy_cloud) - Persistent coding agent on Cloudflare with a native TSP frontend in Tern and a `pi-tui` fallback elsewhere. ★ 0 · updated 2026-10-05
-- [Terngram](https://github.com/d3d0n/terngram) - Unofficial keyboard-driven Telegram client built on TDLib and omp's UI toolkit, also installable as a Tern plugin. ★ 0 · updated 2026-10-05
+- [oh-my-pi (omp)](https://github.com/can1357/oh-my-pi) ★ 34331 · 2026-10-05 - Stencil's coding agent that Tern is built around, drawing its transcript and UI natively, restoring sessions, and opening web pages as browser picture-in-picture panes.
+- [Octet](https://github.com/skaft-software/octet/pull/485) ★ 7 · 2026-10-05 - Coding-agent shell rendering transcript cards, split diffs, pickers, and reports through TSP; Tern support is merged into the integration branch for 0.8.2 but not in the latest 0.8.1 release.
+- [saavy](https://github.com/saavy1/saavy_cloud) ★ 0 · 2026-10-05 - Persistent coding agent on Cloudflare with a native TSP frontend in Tern and a `pi-tui` fallback elsewhere.
+- [Terngram](https://github.com/d3d0n/terngram) ★ 0 · 2026-10-05 - Unofficial keyboard-driven Telegram client built on TDLib and omp's UI toolkit, also installable as a Tern plugin.
 
 ## Agent integrations
 
-- [omp-side](https://github.com/wolfiesch/omp-side) - Adds a `/side` command to fork the conversation into a child session and open it in a side pane in Tern, cmux, tmux, WezTerm, Kitty, and Ghostty. ★ 5 · updated 2026-10-04
-- [tern-mcp](https://github.com/NaC-L/tern-mcp) - Python MCP server over stdio wrapping the tern CLI with 14 tools for sessions, panes, capture, process inspection, input and layout. ★ 2 · updated 2026-10-03
-- [tern-control](https://github.com/wolfiesch/tern-control) - An omp and Pi extension giving agents tools to find Tern sessions, read transcript digests, follow daemon events, change layout, and type into terminals. ★ 1 · updated 2026-10-01
-- [omp-thinking-translator](https://github.com/Mouriya-Emma/omp-thinking-translator) - An omp extension that translates visible thinking into collapsible native sections in Tern and plain ANSI output in other terminals. ★ 0 · updated 2026-10-02
+- [omp-side](https://github.com/wolfiesch/omp-side) ★ 5 · 2026-10-04 - Adds a `/side` command to fork the conversation into a child session and open it in a side pane in Tern, cmux, tmux, WezTerm, Kitty, and Ghostty.
+- [tern-mcp](https://github.com/NaC-L/tern-mcp) ★ 2 · 2026-10-03 - Python MCP server over stdio wrapping the tern CLI with 14 tools for sessions, panes, capture, process inspection, input and layout.
+- [tern-control](https://github.com/wolfiesch/tern-control) ★ 1 · 2026-10-01 - An omp and Pi extension giving agents tools to find Tern sessions, read transcript digests, follow daemon events, change layout, and type into terminals.
+- [omp-thinking-translator](https://github.com/Mouriya-Emma/omp-thinking-translator) ★ 0 · 2026-10-02 - An omp extension that translates visible thinking into collapsible native sections in Tern and plain ANSI output in other terminals.
 
 ## SDKs and protocol libraries
 
 - [Tern SDK](https://docs.stencil.so/tern/tern-sdk.tar.gz) - Official archive containing Luau type definitions (`tern.d.luau`) and example plugins.
-- [@oh-my-pi/pi-wire](https://github.com/can1357/oh-my-pi/tree/main/packages/wire) - TypeScript package implementing the TSP wire format: APC framing, component types, frame operations, handshake and events. ★ 34331 · updated 2026-10-05
-- [@oh-my-pi/pi-tui](https://github.com/can1357/oh-my-pi/tree/main/packages/tui) - TypeScript UI toolkit from omp for rendering transcripts, chat, dashboards, and pickers natively over TSP. ★ 34331 · updated 2026-10-05
-- [octet-tern](https://github.com/skaft-software/octet/tree/9e8abda1f4f210d43361b6c0a80e482097feff77/crates/octet-tern) - A Rust TSP client built into Octet with wire types, APC chunking, tty flow control, and scene builders. ★ 7 · updated 2026-10-05
+- [@oh-my-pi/pi-wire](https://github.com/can1357/oh-my-pi/tree/main/packages/wire) ★ 34331 · 2026-10-05 - TypeScript package implementing the TSP wire format: APC framing, component types, frame operations, handshake and events.
+- [@oh-my-pi/pi-tui](https://github.com/can1357/oh-my-pi/tree/main/packages/tui) ★ 34331 · 2026-10-05 - TypeScript UI toolkit from omp for rendering transcripts, chat, dashboards, and pickers natively over TSP.
+- [octet-tern](https://github.com/skaft-software/octet/tree/9e8abda1f4f210d43361b6c0a80e482097feff77/crates/octet-tern) ★ 7 · 2026-10-05 - A Rust TSP client built into Octet with wire types, APC chunking, tty flow control, and scene builders.
 
 ## Official resources
 
@@ -104,9 +104,9 @@ Applications that draw their own user interface natively inside Tern using the T
 
 Tern builds are behind a sign-in, so these Nix setups expect you to download the build yourself.
 
-- [pelikanade/flake](https://github.com/pelikanade/flake/blob/f6f8217278a4a119c8e3a5b27b5a30ffef57cbd1/docs/tern.md) - Nix packaging guide covering signed-in downloads, `requireFile`, graphics libraries, and updating. ★ 11 · updated 2026-10-05
-- [plumj-am/nixos](https://github.com/plumj-am/nixos/blob/master/modules/tern.nix) - NixOS module that manages Tern settings, theme, tmux-style keybindings, the `omp` launch command and plugins. ★ 2 · updated 2026-10-04
-- [tdortman/dotfiles](https://github.com/tdortman/dotfiles/tree/008242f1f3ef305950a98f9878a0253477f256b0/nix) - A Nix package with desktop entries, an update script finding new builds via a Stencil browser session, and a KDE Plasma Home Manager module where Meta+Return focuses Tern or starts it. ★ 1 · updated 2026-10-04
+- [pelikanade/flake](https://github.com/pelikanade/flake/blob/f6f8217278a4a119c8e3a5b27b5a30ffef57cbd1/docs/tern.md) ★ 11 · 2026-10-05 - Nix packaging guide covering signed-in downloads, `requireFile`, graphics libraries, and updating.
+- [plumj-am/nixos](https://github.com/plumj-am/nixos/blob/master/modules/tern.nix) ★ 2 · 2026-10-04 - NixOS module that manages Tern settings, theme, tmux-style keybindings, the `omp` launch command and plugins.
+- [tdortman/dotfiles](https://github.com/tdortman/dotfiles/tree/008242f1f3ef305950a98f9878a0253477f256b0/nix) ★ 1 · 2026-10-04 - A Nix package with desktop entries, an update script finding new builds via a Stencil browser session, and a KDE Plasma Home Manager module where Meta+Return focuses Tern or starts it.
 
 ## Contributing
 
