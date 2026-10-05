@@ -36,6 +36,7 @@ A lens captures a shell command's output and shows it as a native view. A Raw to
 
 - [tern-spotify](https://github.com/rico-vz/tern-spotify) ★ 0 · 2026-10-04 - Player block for the Spotify desktop app with cover art, playback, seeking and volume controls on macOS, Windows and Linux.
 - [tern-video-block](https://github.com/verticalrectangle/tern-video-block) ★ 0 · 2026-10-05 - Opens video files in a block with mpv sound, frame stepping and synced side-by-side playback using ffmpeg and the kitty graphics protocol.
+- [tern-CDP-tidal](https://github.com/H4vC/tern-CDP-tidal) - Player block for the TIDAL desktop app, driven over the Chrome DevTools protocol, with cover art, playback, seeking, volume, shuffle, repeat and line-based search.
 
 ### Window and workflow
 
