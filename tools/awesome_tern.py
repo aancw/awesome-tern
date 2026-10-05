@@ -127,11 +127,18 @@ def anchor(title: str) -> str:
     return re.sub(r"[^\w\- ]", "", title.strip().lower()).replace(" ", "-")
 
 
-def entry_flag(entry: dict, meta: dict) -> str:
-    """Marker from the last refresh: unavailable, archived or inactive."""
+def entry_meta(entry: dict, meta: dict) -> str:
+    """Stars, last push and status from the last refresh, for GitHub-backed entries."""
     repo = entry_repo(entry)
-    status = (meta.get(repo) or {}).get("status") if repo else None
-    return f" `{status}`" if status else ""
+    info = meta.get(repo) if repo else None
+    if not info:
+        return ""
+    if info.get("status") == "unavailable":
+        return " `unavailable`"
+    parts = [f"★ {info['stars']}", f"updated {info['pushed']}"]
+    if info.get("status"):
+        parts.append(f"`{info['status']}`")
+    return " " + " · ".join(parts)
 
 
 def ordered(section: dict, meta: dict) -> list[dict]:
@@ -167,7 +174,7 @@ def render(data: dict, meta: dict) -> str:
             out += [s["blurb"].strip(), ""]
         items = ordered(s, meta)
         for e in items:
-            out.append(f"- [{e['name']}]({e['url']}) - {e['description'].strip()}{entry_flag(e, meta)}")
+            out.append(f"- [{e['name']}]({e['url']}) - {e['description'].strip()}{entry_meta(e, meta)}")
         if items:
             out.append("")
     if data.get("contributing"):
@@ -234,7 +241,7 @@ def cmd_refresh(_args) -> int:
             continue
         pushed = dt.datetime.fromisoformat(info["pushed_at"])
         status = "archived" if info["archived"] else "inactive" if now - pushed > INACTIVE_AFTER else None
-        meta[repo] = {"stars": info["stargazers_count"], "status": status}
+        meta[repo] = {"stars": info["stargazers_count"], "pushed": info["pushed_at"][:10], "status": status}
     METADATA.write_text(json.dumps(meta, indent=2, sort_keys=True) + "\n")
     print(f"refreshed {len(repos)} repositories")
     return 0

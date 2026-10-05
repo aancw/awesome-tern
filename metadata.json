@@ -1,77 +1,81 @@
 {
-  "4weaver/nixdots": {
-    "stars": 0,
-    "status": null
-  },
   "Mouriya-Emma/omp-thinking-translator": {
+    "pushed": "2026-10-02",
     "stars": 0,
     "status": null
   },
   "NaC-L/tern-mcp": {
+    "pushed": "2026-10-03",
     "stars": 2,
     "status": null
   },
   "azmifarih/tern-model-usage": {
+    "pushed": "2026-10-04",
     "stars": 0,
     "status": null
   },
   "can1357/oh-my-pi": {
-    "stars": 34330,
+    "pushed": "2026-10-05",
+    "stars": 34331,
     "status": null
   },
   "d3d0n/terngram": {
+    "pushed": "2026-10-05",
     "stars": 0,
     "status": null
   },
   "gabrielmoreira/herdr-tern-plugin": {
+    "pushed": "2026-10-05",
     "stars": 0,
-    "status": null
-  },
-  "not-matthias/dotfiles-nix": {
-    "stars": 10,
     "status": null
   },
   "pelikanade/flake": {
+    "pushed": "2026-10-05",
     "stars": 11,
     "status": null
   },
-  "phibkro/homelab": {
-    "stars": 0,
-    "status": null
-  },
   "plumj-am/nixos": {
+    "pushed": "2026-10-04",
     "stars": 2,
     "status": null
   },
   "resYuto/tern-jj": {
+    "pushed": "2026-10-04",
     "stars": 0,
     "status": null
   },
   "rico-vz/tern-spotify": {
+    "pushed": "2026-10-04",
     "stars": 0,
     "status": null
   },
   "saavy1/saavy_cloud": {
+    "pushed": "2026-10-05",
     "stars": 0,
     "status": null
   },
   "skaft-software/octet": {
+    "pushed": "2026-10-05",
     "stars": 7,
     "status": null
   },
   "tdortman/dotfiles": {
+    "pushed": "2026-10-04",
     "stars": 1,
     "status": null
   },
   "verticalrectangle/tern-video-block": {
+    "pushed": "2026-10-05",
     "stars": 0,
     "status": null
   },
   "wolfiesch/omp-side": {
+    "pushed": "2026-10-04",
     "stars": 5,
     "status": null
   },
   "wolfiesch/tern-control": {
+    "pushed": "2026-10-01",
     "stars": 1,
     "status": null
   }
