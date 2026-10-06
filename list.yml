@@ -31,6 +31,12 @@ sections:
     - name: tern-CDP-tidal
       url: https://github.com/H4vC/tern-CDP-tidal
       description: Player block for the TIDAL desktop app, driven over the Chrome DevTools protocol, with cover art, playback, seeking, volume, shuffle, repeat and line-based search.
+    - name: tern-spotify (Windows)
+      url: https://github.com/NaC-L/tern-spotify
+      description: Floating player for the Windows Spotify desktop app with cover art, playback controls, search, keyboard shortcuts and the current track in the status line.
+    - name: tern-office-preview
+      url: https://github.com/zerx-lab/tern-office-preview
+      description: Previews Word and Excel files natively in a block using a Rust renderer, with no Office, browser or LibreOffice involved.
   - title: Window and workflow
     blurb: Window plugins add commands, keybindings, layouts, and status-line segments.
     entries:
@@ -51,6 +57,15 @@ sections:
     - name: tern-close-plugin
       url: https://github.com/yumosx/tern-close-plugin
       description: Adds palette commands that close the other tabs and the split blocks left, right and around the focused block, each row hidden while it would close nothing.
+    - name: tern-status
+      url: https://github.com/getpipher/tern-status
+      description: Status line in the style of tmux with CPU, memory, battery, network, disk and clock segments drawn with Tern's own icons and theme tones.
+    - name: font-default
+      url: https://github.com/getpipher/font-default
+      description: Makes the Reset font size command return to your configured size instead of Tern's built-in default.
+    - name: tern-claude-usage
+      url: https://github.com/zerx-lab/tern-claude-usage
+      description: Shows Claude Pro and Max usage limits in a panel and a status-line segment, with 5-hour and 7-day windows, per-model limits, pace tracking and reset countdowns.
   - title: Official examples
     blurb: These examples ship with the official [SDK archive](https://docs.stencil.so/tern/tern-sdk.tar.gz). They are a good starting point if you are writing your own plugin.
     sort: manual
@@ -91,6 +106,9 @@ sections:
   - name: mantern
     url: https://github.com/theblazehen/mantern
     description: Drop-in `man` replacement that draws pages natively in Tern over TSP, with a synopsis card, option cards, tables, foldable sections and clickable SEE ALSO links, and falls back to the system `man` elsewhere.
+  - name: Hermes for Tern
+    url: https://github.com/thefullctx/hermes-for-tern
+    description: Unofficial Tern frontend for Hermes Agent that draws the conversation, tool rows, subagents, buttons and a docked composer natively over TSP, and leaves the normal Hermes interface alone in other terminals.
   - name: Octet
     url: https://github.com/skaft-software/octet/pull/485
     description: Coding-agent shell rendering transcript cards, split diffs, pickers, and reports through TSP; Tern support is merged into the integration branch for 0.8.2 but not in the latest 0.8.1 release.
@@ -112,12 +130,18 @@ sections:
   - name: omp-thinking-translator
     url: https://github.com/Mouriya-Emma/omp-thinking-translator
     description: An omp extension that translates visible thinking into collapsible native sections in Tern and plain ANSI output in other terminals.
+  - name: pi-tern
+    url: https://github.com/Ghost-9/pi-tern
+    description: Makes the pi coding agent Tern-aware with the TSP handshake, native Mermaid diagrams, browser automation, pane capture and a session mirror.
 - title: SDKs and protocol libraries
   sort: manual
   entries:
   - name: Tern SDK
     url: https://docs.stencil.so/tern/tern-sdk.tar.gz
     description: Official archive containing Luau type definitions (`tern.d.luau`) and example plugins.
+  - name: tern-sdk
+    url: https://github.com/stencil-hq/tern-sdk
+    description: Official repository of Surface Protocol SDKs for Rust, Python, Go and TypeScript, plus example plugins.
   - name: '@oh-my-pi/pi-wire'
     url: https://github.com/can1357/oh-my-pi/tree/main/packages/wire
     description: 'TypeScript package implementing the TSP wire format: APC framing, component types, frame operations, handshake and events.'
