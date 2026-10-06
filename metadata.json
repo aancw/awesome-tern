@@ -1,4 +1,9 @@
 {
+  "Ghost-9/pi-tern": {
+    "pushed": "2026-10-06",
+    "stars": 0,
+    "status": null
+  },
   "H4vC/tern-CDP-tidal": {
     "pushed": "2026-10-06",
     "stars": 2,
@@ -12,6 +17,11 @@
   "NaC-L/tern-mcp": {
     "pushed": "2026-10-03",
     "stars": 2,
+    "status": null
+  },
+  "NaC-L/tern-spotify": {
+    "pushed": "2026-10-05",
+    "stars": 1,
     "status": null
   },
   "azmifarih/tern-model-usage": {
@@ -32,6 +42,16 @@
   "gabrielmoreira/herdr-tern-plugin": {
     "pushed": "2026-10-05",
     "stars": 1,
+    "status": null
+  },
+  "getpipher/font-default": {
+    "pushed": "2026-10-06",
+    "stars": 0,
+    "status": null
+  },
+  "getpipher/tern-status": {
+    "pushed": "2026-10-06",
+    "stars": 0,
     "status": null
   },
   "pelikanade/flake": {
@@ -69,6 +89,11 @@
     "stars": 7,
     "status": null
   },
+  "stencil-hq/tern-sdk": {
+    "pushed": "2026-10-05",
+    "stars": 8,
+    "status": null
+  },
   "tdortman/dotfiles": {
     "pushed": "2026-10-06",
     "stars": 1,
@@ -77,6 +102,11 @@
   "theblazehen/mantern": {
     "pushed": "2026-10-05",
     "stars": 4,
+    "status": null
+  },
+  "thefullctx/hermes-for-tern": {
+    "pushed": "2026-10-06",
+    "stars": 0,
     "status": null
   },
   "verticalrectangle/tern-video-block": {
@@ -96,6 +126,16 @@
   },
   "yumosx/tern-close-plugin": {
     "pushed": "2026-10-05",
+    "stars": 0,
+    "status": null
+  },
+  "zerx-lab/tern-claude-usage": {
+    "pushed": "2026-10-06",
+    "stars": 0,
+    "status": null
+  },
+  "zerx-lab/tern-office-preview": {
+    "pushed": "2026-10-06",
     "stars": 0,
     "status": null
   }
