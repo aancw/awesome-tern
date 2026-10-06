@@ -31,7 +31,7 @@
   },
   "can1357/oh-my-pi": {
     "pushed": "2026-10-06",
-    "stars": 34436,
+    "stars": 34457,
     "status": null
   },
   "d3d0n/terngram": {
@@ -91,7 +91,7 @@
   },
   "stencil-hq/tern-sdk": {
     "pushed": "2026-10-06",
-    "stars": 8,
+    "stars": 11,
     "status": null
   },
   "tdortman/dotfiles": {
@@ -101,22 +101,27 @@
   },
   "theblazehen/mantern": {
     "pushed": "2026-10-05",
-    "stars": 4,
+    "stars": 5,
     "status": null
   },
   "thefullctx/hermes-for-tern": {
     "pushed": "2026-10-06",
-    "stars": 1,
+    "stars": 5,
     "status": null
   },
   "verticalrectangle/tern-video-block": {
     "pushed": "2026-10-05",
-    "stars": 1,
+    "stars": 2,
+    "status": null
+  },
+  "vokativ/tern-file-paste": {
+    "pushed": "2026-10-06",
+    "stars": 0,
     "status": null
   },
   "wolfiesch/omp-side": {
     "pushed": "2026-10-04",
-    "stars": 5,
+    "stars": 6,
     "status": null
   },
   "wolfiesch/tern-control": {

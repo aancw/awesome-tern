@@ -35,8 +35,8 @@ A lens captures a shell command's output and shows it as a native view. A Raw to
 ### Blocks
 
 - [tern-CDP-tidal](https://github.com/H4vC/tern-CDP-tidal) ★ 2 · 2026-10-06 - Player block for the TIDAL desktop app, driven over the Chrome DevTools protocol, with cover art, playback, seeking, volume, shuffle, repeat and line-based search.
+- [tern-video-block](https://github.com/verticalrectangle/tern-video-block) ★ 2 · 2026-10-05 - Opens video files in a block with mpv sound, frame stepping and synced side-by-side playback using ffmpeg and the kitty graphics protocol.
 - [tern-spotify (Windows)](https://github.com/NaC-L/tern-spotify) ★ 1 · 2026-10-05 - Floating player for the Windows Spotify desktop app with cover art, playback controls, search, keyboard shortcuts and the current track in the status line.
-- [tern-video-block](https://github.com/verticalrectangle/tern-video-block) ★ 1 · 2026-10-05 - Opens video files in a block with mpv sound, frame stepping and synced side-by-side playback using ffmpeg and the kitty graphics protocol.
 - [tern-office-preview](https://github.com/zerx-lab/tern-office-preview) ★ 0 · 2026-10-06 - Previews Word and Excel files natively in a block using a Rust renderer, with no Office, browser or LibreOffice involved.
 - [tern-spotify](https://github.com/rico-vz/tern-spotify) ★ 0 · 2026-10-04 - Player block for the Spotify desktop app with cover art, playback, seeking and volume controls on macOS, Windows and Linux.
 
@@ -51,6 +51,7 @@ Window plugins add commands, keybindings, layouts, and status-line segments.
 - [font-default](https://github.com/getpipher/font-default) ★ 0 · 2026-10-06 - Makes the Reset font size command return to your configured size instead of Tern's built-in default.
 - [tern-claude-usage](https://github.com/zerx-lab/tern-claude-usage) ★ 0 · 2026-10-06 - Shows Claude Pro and Max usage limits in a panel and a status-line segment, with 5-hour and 7-day windows, per-model limits, pace tracking and reset countdowns.
 - [tern-close-plugin](https://github.com/yumosx/tern-close-plugin) ★ 0 · 2026-10-05 - Adds palette commands that close the other tabs and the split blocks left, right and around the focused block, each row hidden while it would close nothing.
+- [tern-file-paste](https://github.com/vokativ/tern-file-paste) ★ 0 · 2026-10-06 - Uploads copied local files from macOS, Linux, and Windows to remote hosts over SSH and inserts their paths into Tern panes.
 - [tern-status](https://github.com/getpipher/tern-status) ★ 0 · 2026-10-06 - Status line in the style of tmux with CPU, memory, battery, network, disk and clock segments drawn with Tern's own icons and theme tones.
 
 ### Official examples
@@ -69,17 +70,17 @@ These examples ship with the official [SDK archive](https://docs.stencil.so/tern
 
 Applications that draw their own user interface natively inside Tern using the Tern Surface Protocol (TSP).
 
-- [oh-my-pi (omp)](https://github.com/can1357/oh-my-pi) ★ 34436 · 2026-10-06 - Stencil's coding agent that Tern is built around, drawing its transcript and UI natively, restoring sessions, and opening web pages as browser picture-in-picture panes.
+- [oh-my-pi (omp)](https://github.com/can1357/oh-my-pi) ★ 34457 · 2026-10-06 - Stencil's coding agent that Tern is built around, drawing its transcript and UI natively, restoring sessions, and opening web pages as browser picture-in-picture panes.
 - [Octet](https://github.com/skaft-software/octet/pull/485) ★ 7 · 2026-10-05 - Coding-agent shell rendering transcript cards, split diffs, pickers, and reports through TSP; Tern support is merged into the integration branch for 0.8.2 but not in the latest 0.8.1 release.
-- [mantern](https://github.com/theblazehen/mantern) ★ 4 · 2026-10-05 - Drop-in `man` replacement that draws pages natively in Tern over TSP, with a synopsis card, option cards, tables, foldable sections and clickable SEE ALSO links, and falls back to the system `man` elsewhere.
+- [Hermes for Tern](https://github.com/thefullctx/hermes-for-tern) ★ 5 · 2026-10-06 - Unofficial Tern frontend for Hermes Agent that draws the conversation, tool rows, subagents, buttons and a docked composer natively over TSP, and leaves the normal Hermes interface alone in other terminals.
+- [mantern](https://github.com/theblazehen/mantern) ★ 5 · 2026-10-05 - Drop-in `man` replacement that draws pages natively in Tern over TSP, with a synopsis card, option cards, tables, foldable sections and clickable SEE ALSO links, and falls back to the system `man` elsewhere.
 - [rmon](https://github.com/pgkt04/rmon) ★ 4 · 2026-10-05 - Resource monitor for Linux and macOS with CPU, GPU, memory, network, disk and process panels and a disk benchmark, drawn natively in Tern over TSP.
-- [Hermes for Tern](https://github.com/thefullctx/hermes-for-tern) ★ 1 · 2026-10-06 - Unofficial Tern frontend for Hermes Agent that draws the conversation, tool rows, subagents, buttons and a docked composer natively over TSP, and leaves the normal Hermes interface alone in other terminals.
 - [saavy](https://github.com/saavy1/saavy_cloud) ★ 1 · 2026-10-05 - Persistent coding agent on Cloudflare with a native TSP frontend in Tern and a `pi-tui` fallback elsewhere.
 - [Terngram](https://github.com/d3d0n/terngram) ★ 0 · 2026-10-05 - Unofficial keyboard-driven Telegram client built on TDLib and omp's UI toolkit, also installable as a Tern plugin.
 
 ## Agent integrations
 
-- [omp-side](https://github.com/wolfiesch/omp-side) ★ 5 · 2026-10-04 - Adds a `/side` command to fork the conversation into a child session and open it in a side pane in Tern, cmux, tmux, WezTerm, Kitty, and Ghostty.
+- [omp-side](https://github.com/wolfiesch/omp-side) ★ 6 · 2026-10-04 - Adds a `/side` command to fork the conversation into a child session and open it in a side pane in Tern, cmux, tmux, WezTerm, Kitty, and Ghostty.
 - [tern-mcp](https://github.com/NaC-L/tern-mcp) ★ 2 · 2026-10-03 - Python MCP server over stdio wrapping the tern CLI with 14 tools for sessions, panes, capture, process inspection, input and layout.
 - [tern-control](https://github.com/wolfiesch/tern-control) ★ 1 · 2026-10-01 - An omp and Pi extension giving agents tools to find Tern sessions, read transcript digests, follow daemon events, change layout, and type into terminals.
 - [omp-thinking-translator](https://github.com/Mouriya-Emma/omp-thinking-translator) ★ 0 · 2026-10-02 - An omp extension that translates visible thinking into collapsible native sections in Tern and plain ANSI output in other terminals.
@@ -88,9 +89,9 @@ Applications that draw their own user interface natively inside Tern using the T
 ## SDKs and protocol libraries
 
 - [Tern SDK](https://docs.stencil.so/tern/tern-sdk.tar.gz) - Official archive containing Luau type definitions (`tern.d.luau`) and example plugins.
-- [tern-sdk](https://github.com/stencil-hq/tern-sdk) ★ 8 · 2026-10-06 - Official repository of Surface Protocol SDKs for Rust, Python, Go and TypeScript, plus example plugins.
-- [@oh-my-pi/pi-wire](https://github.com/can1357/oh-my-pi/tree/main/packages/wire) ★ 34436 · 2026-10-06 - TypeScript package implementing the TSP wire format: APC framing, component types, frame operations, handshake and events.
-- [@oh-my-pi/pi-tui](https://github.com/can1357/oh-my-pi/tree/main/packages/tui) ★ 34436 · 2026-10-06 - TypeScript UI toolkit from omp for rendering transcripts, chat, dashboards, and pickers natively over TSP.
+- [tern-sdk](https://github.com/stencil-hq/tern-sdk) ★ 11 · 2026-10-06 - Official repository of Surface Protocol SDKs for Rust, Python, Go and TypeScript, plus example plugins.
+- [@oh-my-pi/pi-wire](https://github.com/can1357/oh-my-pi/tree/main/packages/wire) ★ 34457 · 2026-10-06 - TypeScript package implementing the TSP wire format: APC framing, component types, frame operations, handshake and events.
+- [@oh-my-pi/pi-tui](https://github.com/can1357/oh-my-pi/tree/main/packages/tui) ★ 34457 · 2026-10-06 - TypeScript UI toolkit from omp for rendering transcripts, chat, dashboards, and pickers natively over TSP.
 - [octet-tern](https://github.com/skaft-software/octet/tree/9e8abda1f4f210d43361b6c0a80e482097feff77/crates/octet-tern) ★ 7 · 2026-10-05 - A Rust TSP client built into Octet with wire types, APC chunking, tty flow control, and scene builders.
 
 ## Official resources
