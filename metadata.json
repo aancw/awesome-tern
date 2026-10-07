@@ -1,12 +1,22 @@
 {
   "Ghost-9/pi-tern": {
-    "pushed": "2026-10-06",
+    "pushed": "2026-10-07",
     "stars": 0,
     "status": null
   },
   "H4vC/tern-CDP-tidal": {
     "pushed": "2026-10-06",
     "stars": 2,
+    "status": null
+  },
+  "ITSyndicate25/tern-mizu": {
+    "pushed": "2026-10-07",
+    "stars": 1,
+    "status": null
+  },
+  "ITSyndicate25/tern-pokemon": {
+    "pushed": "2026-10-07",
+    "stars": 1,
     "status": null
   },
   "Mouriya-Emma/omp-thinking-translator": {
@@ -20,8 +30,8 @@
     "status": null
   },
   "NaC-L/tern-spotify": {
-    "pushed": "2026-10-05",
-    "stars": 1,
+    "pushed": "2026-10-06",
+    "stars": 3,
     "status": null
   },
   "azmifarih/tern-model-usage": {
@@ -30,8 +40,8 @@
     "status": null
   },
   "can1357/oh-my-pi": {
-    "pushed": "2026-10-06",
-    "stars": 34457,
+    "pushed": "2026-10-07",
+    "stars": 34493,
     "status": null
   },
   "d3d0n/terngram": {
@@ -41,7 +51,7 @@
   },
   "gabrielmoreira/herdr-tern-plugin": {
     "pushed": "2026-10-05",
-    "stars": 1,
+    "stars": 2,
     "status": null
   },
   "getpipher/font-default": {
@@ -55,17 +65,17 @@
     "status": null
   },
   "pelikanade/flake": {
-    "pushed": "2026-10-06",
+    "pushed": "2026-10-07",
     "stars": 11,
     "status": null
   },
   "pgkt04/rmon": {
-    "pushed": "2026-10-05",
-    "stars": 4,
+    "pushed": "2026-10-07",
+    "stars": 5,
     "status": null
   },
   "plumj-am/nixos": {
-    "pushed": "2026-10-05",
+    "pushed": "2026-10-06",
     "stars": 2,
     "status": null
   },
@@ -76,7 +86,7 @@
   },
   "rico-vz/tern-spotify": {
     "pushed": "2026-10-04",
-    "stars": 0,
+    "stars": 1,
     "status": null
   },
   "saavy1/saavy_cloud": {
@@ -90,8 +100,8 @@
     "status": null
   },
   "stencil-hq/tern-sdk": {
-    "pushed": "2026-10-06",
-    "stars": 11,
+    "pushed": "2026-10-07",
+    "stars": 19,
     "status": null
   },
   "tdortman/dotfiles": {
@@ -106,7 +116,7 @@
   },
   "thefullctx/hermes-for-tern": {
     "pushed": "2026-10-06",
-    "stars": 5,
+    "stars": 7,
     "status": null
   },
   "verticalrectangle/tern-video-block": {
