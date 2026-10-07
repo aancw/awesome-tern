@@ -46,6 +46,9 @@ sections:
     - name: tern-model-usage
       url: https://github.com/azmifarih/tern-model-usage
       description: Shows omp coding-plan quota for each signed-in account in the status line and opens a canvas pane with provider cards and reset countdowns.
+    - name: tern-usage-monitor
+      url: https://github.com/rico-vz/tern-usage-monitor
+      description: Floating or docked panel showing usage for every omp linked account, with per-account quota bars, auto-refresh, ordering and update-time settings.
     - name: herdr-tern-plugin
       url: https://github.com/gabrielmoreira/herdr-tern-plugin
       description: Adds an Open Herdr Session command that picks an existing herdr session and attaches to it inside Tern without copying or converting workspaces.
