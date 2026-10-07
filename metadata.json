@@ -41,7 +41,7 @@
   },
   "can1357/oh-my-pi": {
     "pushed": "2026-10-07",
-    "stars": 34493,
+    "stars": 34494,
     "status": null
   },
   "d3d0n/terngram": {
@@ -87,6 +87,11 @@
   "rico-vz/tern-spotify": {
     "pushed": "2026-10-04",
     "stars": 1,
+    "status": null
+  },
+  "rico-vz/tern-usage-monitor": {
+    "pushed": "2026-10-06",
+    "stars": 0,
     "status": null
   },
   "saavy1/saavy_cloud": {
