@@ -61,9 +61,6 @@ sections:
     - name: tern-herdr
       url: https://github.com/safzanpirani/tern-herdr
       description: Shows Herdr as native Tern tabs, splits and a sidebar, with tabs colored by agent state and Herdr's prefix keys working.
-    - name: herdr-cwd-sync
-      url: https://github.com/m16khb-org/herdr-cwd-sync
-      description: Makes the Files pane, title bar and new-tab-here follow the focused herdr pane's directory by passing its OSC 7 updates on to the host terminal.
     - name: TernGitButler
       url: https://github.com/edheltzel/Butler-Pane
       description: GitButler workspaces in Tern, with a status-bar segment, a workspace block with one lane per branch stack and a diff block.
@@ -88,6 +85,10 @@ sections:
     - name: herdr-tern-plugin
       url: https://github.com/gabrielmoreira/herdr-tern-plugin
       description: Adds an Open Herdr Session command that picks an existing herdr session and attaches to it inside Tern without copying or converting workspaces.
+    - name: herdr-cwd-sync
+      url: https://github.com/m16khb-org/herdr-cwd-sync/tree/main/tern
+      description: Makes the Files pane, titles and new tabs follow the focused herdr pane's directory by forwarding its cwd to Tern with OSC 7.
+      repo: m16khb-org/herdr-cwd-sync
     - name: tern-ide layout
       url: https://github.com/plumj-am/nixos/blob/master/packages/tern-plugins/layout.nix
       description: Window plugin with an IDE-style four-pane layout, set split ratios, and an omp pane, packaged with Nix inside a NixOS config.
