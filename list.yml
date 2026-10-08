@@ -164,6 +164,9 @@ sections:
   - name: mantern
     url: https://github.com/theblazehen/mantern
     description: Drop-in `man` replacement that draws pages natively in Tern over TSP, with a synopsis card, option cards, tables, foldable sections and clickable SEE ALSO links, and falls back to the system `man` elsewhere.
+  - name: Ternatro
+    url: https://github.com/verusferro/Ternatro
+    description: Plays Balatro in a Tern pane, running the game's own Lua code from your copy of Balatro.exe and drawing its layout, card motion, particles and shaders natively; you need to own the game.
   - name: Hermes for Tern
     url: https://github.com/thefullctx/hermes-for-tern
     description: Unofficial Tern frontend for Hermes Agent that draws the conversation, tool rows, subagents, buttons and a docked composer natively over TSP, and leaves the normal Hermes interface alone in other terminals.
