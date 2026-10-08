@@ -38,10 +38,10 @@ A lens captures a shell command's output and shows it as a native view. A Raw to
 - [tern-video-block](https://github.com/verticalrectangle/tern-video-block) ★ 3 · 2026-10-05 - Opens video files in a block with mpv sound, frame stepping and synced side-by-side playback using ffmpeg and the kitty graphics protocol.
 - [tern-CDP-tidal](https://github.com/H4vC/tern-CDP-tidal) ★ 2 · 2026-10-06 - Player block for the TIDAL desktop app, driven over the Chrome DevTools protocol, with cover art, playback, seeking, volume, shuffle, repeat and line-based search.
 - [tern-spotify](https://github.com/rico-vz/tern-spotify) ★ 2 · 2026-10-04 - Player block for the Spotify desktop app with cover art, playback, seeking and volume controls on macOS, Windows and Linux.
-- [tern-pokemon](https://github.com/ITSyndicate25/tern-pokemon) ★ 1 · 2026-10-07 - Ports vscode-pokemon to a block where Pokémon walk, sit and get petted on themed beach, forest and castle scenes, drawn natively with animated GIF sprites and no web view.
+- [tern-pokemon](https://github.com/ITSyndicate25/tern-pokemon) ★ 1 · 2026-10-08 - Ports vscode-pokemon to a block where Pokémon walk, sit and get petted on themed beach, forest and castle scenes, drawn natively with animated GIF sprites and no web view.
 - [tern-margin](https://github.com/Noctivoro/tern-margin) ★ 0 · 2026-10-08 - Renders a Markdown file block by block so you can leave CriticMarkup comments on any paragraph, list, table or code block, and hands them back to the agent that opened it.
 - [tern-office-preview](https://github.com/zerx-lab/tern-office-preview) ★ 0 · 2026-10-06 - Previews Word and Excel files natively in a block using a Rust renderer, with no Office, browser or LibreOffice involved.
-- [tern-rss](https://github.com/bmanturner/tern-rss) ★ 0 · 2026-10-07 - RSS and Atom reader block with headlines, previews, a docked browser for articles, favorites and toasts for new posts from starred feeds.
+- [tern-rss](https://github.com/bmanturner/tern-rss) ★ 0 · 2026-10-07 - Follows RSS and Atom feeds in a block with expandable previews, articles in a docked reader browser, toasts for starred feeds and a catch-up line instead of an ever-growing unread count.
 
 ### Window and workflow
 
