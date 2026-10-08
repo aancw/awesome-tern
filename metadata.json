@@ -15,8 +15,8 @@
     "status": null
   },
   "ITSyndicate25/tern-mizu": {
-    "pushed": "2026-10-07",
-    "stars": 1,
+    "pushed": "2026-10-08",
+    "stars": 2,
     "status": null
   },
   "ITSyndicate25/tern-pokemon": {
@@ -41,7 +41,7 @@
   },
   "Noctivoro/tern-chirp": {
     "pushed": "2026-10-08",
-    "stars": 0,
+    "stars": 1,
     "status": null
   },
   "Noctivoro/tern-margin": {
@@ -86,7 +86,7 @@
   },
   "can1357/oh-my-pi": {
     "pushed": "2026-10-08",
-    "stars": 34600,
+    "stars": 34615,
     "status": null
   },
   "d3d0n/terngram": {
@@ -120,9 +120,8 @@
     "status": null
   },
   "m16khb-org/herdr-cwd-sync": {
-    "pushed": "2026-10-08",
     "stars": 0,
-    "status": null
+    "status": "unavailable"
   },
   "maxtuzz/tern-agents": {
     "pushed": "2026-10-08",
@@ -130,7 +129,7 @@
     "status": null
   },
   "pelikanade/flake": {
-    "pushed": "2026-10-07",
+    "pushed": "2026-10-08",
     "stars": 11,
     "status": null
   },
@@ -181,7 +180,7 @@
   },
   "stencil-hq/tern-sdk": {
     "pushed": "2026-10-07",
-    "stars": 27,
+    "stars": 28,
     "status": null
   },
   "tdortman/dotfiles": {
