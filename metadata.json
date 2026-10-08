@@ -91,7 +91,7 @@
   },
   "can1357/oh-my-pi": {
     "pushed": "2026-10-08",
-    "stars": 34652,
+    "stars": 34653,
     "status": null
   },
   "d3d0n/terngram": {
@@ -200,7 +200,7 @@
   },
   "thefullctx/hermes-for-tern": {
     "pushed": "2026-10-07",
-    "stars": 10,
+    "stars": 11,
     "status": null
   },
   "theoparis/nix-tern": {
@@ -211,6 +211,11 @@
   "verticalrectangle/tern-video-block": {
     "pushed": "2026-10-05",
     "stars": 3,
+    "status": null
+  },
+  "verusferro/Ternatro": {
+    "pushed": "2026-10-08",
+    "stars": 0,
     "status": null
   },
   "vokativ/tern-file-paste": {
