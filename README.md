@@ -66,7 +66,7 @@ Window plugins add commands, keybindings, layouts, and status-line segments.
 - [tern-status](https://github.com/getpipher/tern-status) ★ 0 · 2026-10-06 - Status line in the style of tmux with CPU, memory, battery, network, disk and clock segments drawn with Tern's own icons and theme tones.
 - [tern-swarm](https://github.com/bmanturner/tern-swarm) ★ 0 · 2026-10-06 - Kanban board that runs omp agents on its cards in separate git worktrees, runs your checks on their work and waits for your approval.
 - [tern-usage-monitor](https://github.com/rico-vz/tern-usage-monitor) ★ 0 · 2026-10-06 - Floating or docked panel showing usage for every omp linked account, with per-account quota bars, auto-refresh, ordering and update-time settings.
-- [tern-worktrees (aliefe04)](https://github.com/aliefe04/tern-worktrees) ★ 0 · 2026-10-07 - Two palette commands that create a git worktree with an agent tab and safely remove clean merged worktrees.
+- [tern-worktrees (aliefe04)](https://github.com/aliefe04/tern-worktrees) ★ 0 · 2026-10-07 - Adds palette commands that create a git worktree on a new branch with an agent tab, and remove the focused worktree only when it is clean and merged into the default branch.
 - [TernGitButler](https://github.com/edheltzel/Butler-Pane) ★ 0 · 2026-10-08 - GitButler workspaces in Tern, with a status-bar segment, a workspace block with one lane per branch stack and a diff block.
 - [Toons](https://github.com/TazeDiB/Toons-Tern) ★ 0 · 2026-10-08 - Draws cartoons of what the agent is doing while commands run, as a port of claude-toons to Tern's native UI.
 
@@ -86,7 +86,7 @@ These examples ship with the official [SDK archive](https://docs.stencil.so/tern
 
 Applications that draw their own user interface natively inside Tern using the Tern Surface Protocol (TSP).
 
-- [oh-my-pi (omp)](https://github.com/can1357/oh-my-pi) ★ 34592 · 2026-10-08 - Stencil's coding agent that Tern is built around, drawing its transcript and UI natively, restoring sessions, and opening web pages as browser picture-in-picture panes.
+- [oh-my-pi (omp)](https://github.com/can1357/oh-my-pi) ★ 34600 · 2026-10-08 - Stencil's coding agent that Tern is built around, drawing its transcript and UI natively, restoring sessions, and opening web pages as browser picture-in-picture panes.
 - [Hermes for Tern](https://github.com/thefullctx/hermes-for-tern) ★ 10 · 2026-10-07 - Unofficial Tern frontend for Hermes Agent that draws the conversation, tool rows, subagents, buttons and a docked composer natively over TSP, and leaves the normal Hermes interface alone in other terminals.
 - [Octet](https://github.com/skaft-software/octet/pull/485) ★ 7 · 2026-10-08 - Coding-agent shell rendering transcript cards, split diffs, pickers, and reports through TSP; Tern support is merged into the integration branch for 0.8.2 but not in the latest 0.8.1 release.
 - [mantern](https://github.com/theblazehen/mantern) ★ 5 · 2026-10-05 - Drop-in `man` replacement that draws pages natively in Tern over TSP, with a synopsis card, option cards, tables, foldable sections and clickable SEE ALSO links, and falls back to the system `man` elsewhere.
@@ -108,8 +108,8 @@ Applications that draw their own user interface natively inside Tern using the T
 
 - [Tern SDK](https://docs.stencil.so/tern/tern-sdk.tar.gz) - Official archive containing Luau type definitions (`tern.d.luau`) and example plugins.
 - [tern-sdk](https://github.com/stencil-hq/tern-sdk) ★ 27 · 2026-10-07 - Official repository of Surface Protocol SDKs for Rust, Python, Go and TypeScript, plus example plugins.
-- [@oh-my-pi/pi-wire](https://github.com/can1357/oh-my-pi/tree/main/packages/wire) ★ 34592 · 2026-10-08 - TypeScript package implementing the TSP wire format: APC framing, component types, frame operations, handshake and events.
-- [@oh-my-pi/pi-tui](https://github.com/can1357/oh-my-pi/tree/main/packages/tui) ★ 34592 · 2026-10-08 - TypeScript UI toolkit from omp for rendering transcripts, chat, dashboards, and pickers natively over TSP.
+- [@oh-my-pi/pi-wire](https://github.com/can1357/oh-my-pi/tree/main/packages/wire) ★ 34600 · 2026-10-08 - TypeScript package implementing the TSP wire format: APC framing, component types, frame operations, handshake and events.
+- [@oh-my-pi/pi-tui](https://github.com/can1357/oh-my-pi/tree/main/packages/tui) ★ 34600 · 2026-10-08 - TypeScript UI toolkit from omp for rendering transcripts, chat, dashboards, and pickers natively over TSP.
 - [octet-tern](https://github.com/skaft-software/octet/tree/9e8abda1f4f210d43361b6c0a80e482097feff77/crates/octet-tern) ★ 7 · 2026-10-08 - A Rust TSP client built into Octet with wire types, APC chunking, tty flow control, and scene builders.
 
 ## Official resources
